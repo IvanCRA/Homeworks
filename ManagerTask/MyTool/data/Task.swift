@@ -2,8 +2,8 @@ import Foundation
 
 struct Task : Identifiable {
     let id: UUID
-    var title: String
+    let title: String
     var isCompleted: Bool = false
-    var category: TaskCategory
+    let category: TaskCategory
     
 }
